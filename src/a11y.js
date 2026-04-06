@@ -11,8 +11,9 @@ this._Atspi.init();
 
 
 	this._listener = this._Atspi.EventListener.new( function( event ) {
+if( event && event.source ) {
 console.log( event.source.getRoleName(), event.source.getApplication().getName() );
-
+}
 	} );
 
 this._listener.register("object:state-changed:focused" );
