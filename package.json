@@ -2,7 +2,7 @@
   "name": "yellowfin",
   "version": "1.0.0",
   "description": "The Linux accessibility framework interface for the Albacore cross-platform screen reader.",
-  "main": src/a11y.js",
+  "main": "src/a11y.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
